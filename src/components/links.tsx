@@ -32,7 +32,7 @@ const item = {
 export const Links = () => {
   return (
     <motion.ul
-      className="flex flex-col items-center justify-between gap-2 py-24"
+      className="flex flex-col items-center justify-between gap-2 md:py-14 lg:py-24"
       variants={list}
       initial="hidden"
       animate="visible"

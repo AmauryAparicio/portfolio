@@ -85,7 +85,10 @@ const ExperienceAndEducation = () => {
   ];
 
   return (
-    <section id="experience-and-education" className="py-16">
+    <section
+      id="experience-and-education"
+      className="px-4 py-8 md:py-16 lg:px-0"
+    >
       <div className="container mx-auto">
         <div className="mb-16">
           <div className="mb-12 flex items-center">

@@ -36,7 +36,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-16">
+    <section id="projects" className="px-4 py-8 md:py-16 lg:px-0">
       <div className="container mx-auto">
         <div className="mb-12 flex items-center">
           <motion.h2

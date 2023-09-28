@@ -76,7 +76,7 @@ export const Title = () => {
         </motion.h1>
       </div>
       <motion.p
-        className="w-3/5 pt-unit-lg text-justify text-lg"
+        className="w-4/5 pt-unit-lg text-justify md:text-lg lg:w-3/5"
         variants={sentence2}
         initial="hidden"
         animate="visible"
