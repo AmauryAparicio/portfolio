@@ -36,6 +36,8 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^10.16.4",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
     "lucide-react": "^0.279.0",
     "next": "latest",
     "next-themes": "^0.2.1",
@@ -46,10 +48,6 @@
     "react-dom": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
-  },
-  "devDependencies": {
-    "husky": "^8.0.0",
-    "lint-staged": "^14.0.1"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx}": [
