@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amaury Aparicio's Portfolio
 
-## Getting Started
+Hello there! 👋 I'm Amaury Aparicio, a passionate developer dedicated to creating innovative and efficient solutions. Welcome to my portfolio repository, where you can explore a collection of my work and projects.
 
-First, run the development server:
+## 🚀 Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Here are some of the projects that I've worked on:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project 1
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Description:** Artesandia is an E-commerce site with an administration system featuring automated systems for managing sales and customers.
+- **Technologies Used:** TypeScript, React, Next.js, tRPC, Prisma, PostgreSQL, Sass, and Turborepo.
+- **[Link to Project](https://www.artesandia.mx)**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Project 2
 
-## Learn More
+- **Description:** Natours is a project created to demonstrate the ability to replicate a design using different CSS techniques.
+- **Technologies Used:** Pure HTML and Scss.
+- **[Link to Project](https://amauryaparicio.github.io/Natours/)**
 
-To learn more about Next.js, take a look at the following resources:
+### Project 3
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Description:** Setup Partcle device is an application that allows users to setup their Particle devices.
+- **Technologies Used:** Next.js, Redux, Sass and internal libraries.
+- **[Link to Project](https://setup.particle.io/)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Skills
 
-## Deploy on Vercel
+- **Languages:** JavaScript, TypeScript, HTML5, CSS3, Sass, Rust, PHP, SQL and MongoDB.
+- **Frameworks/Libraries:** React, Next.js, Redux, tRPC, Prisma, Drizzle, Node.js, Express.js, Laravel, Bootstrap, Tailwind CSS, and Nest.js.
+- **Tools:** Git, GitHub, GitLab and Linux.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📫 Contact Me
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **LinkedIn:** [Amaury Aparicio](https://www.linkedin.com/in/j-amaury-aparicio-cuevas-b639801b0/?locale=en_US)
+- **Email:** <amaurysunstar@gmail.com>
+- **Portfolio:** [@YourTwitterHandle](https://www.amauryaparicio.dev/)
+
+Feel free to reach out to me for collaboration, questions, or just a chat!
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
