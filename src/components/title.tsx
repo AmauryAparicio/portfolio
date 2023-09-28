@@ -46,35 +46,37 @@ const sentence2 = {
 export const Title = () => {
   return (
     <Fragment>
-      <motion.h1
-        className="text-center font-bold"
-        variants={sentence}
-        initial="hidden"
-        animate="visible"
-      >
-        {text1.map((letter, index) => (
-          <motion.span
-            key={`${letter}-${index}-text-1`}
-            className="animate-gradient bg-gradient-to-r from-blue-400 to-cyan-500 bg-300% bg-clip-text text-6xl text-transparent md:text-9xl"
-            variants={letters}
-          >
-            {letter}
-          </motion.span>
-        ))}
-        <br />
-        <br />
-        {text2.map((letter, index) => (
-          <motion.span
-            key={`${letter}-${index}-text-2`}
-            className="text-2xl md:text-6xl"
-            variants={letters}
-          >
-            {letter}
-          </motion.span>
-        ))}
-      </motion.h1>
+      <div className="flex flex-col items-center justify-between rounded bg-white bg-opacity-10 px-4 py-8 drop-shadow-lg backdrop-blur-lg">
+        <motion.h1
+          className="text-center font-bold"
+          variants={sentence}
+          initial="hidden"
+          animate="visible"
+        >
+          {text1.map((letter, index) => (
+            <motion.span
+              key={`${letter}-${index}-text-1`}
+              className="animate-gradient bg-gradient-to-r from-orange-300 via-yellow-400 to-amber-600 bg-300% bg-clip-text text-6xl text-transparent md:text-9xl"
+              variants={letters}
+            >
+              {letter}
+            </motion.span>
+          ))}
+          <br />
+          <br />
+          {text2.map((letter, index) => (
+            <motion.span
+              key={`${letter}-${index}-text-2`}
+              className="text-2xl md:text-6xl"
+              variants={letters}
+            >
+              {letter}
+            </motion.span>
+          ))}
+        </motion.h1>
+      </div>
       <motion.p
-        className="w-3/5 text-justify text-lg"
+        className="w-3/5 pt-unit-lg text-justify text-lg"
         variants={sentence2}
         initial="hidden"
         animate="visible"

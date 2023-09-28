@@ -1,7 +1,9 @@
 "use client";
 
-import Link from "next/link";
+import NextLink from "next/link";
+import { Link } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import { AtSign, Briefcase, Code, User } from "lucide-react";
 
 const list = {
   hidden: { opacity: 1 },
@@ -36,13 +38,52 @@ export const Links = () => {
       animate="visible"
     >
       <motion.li className="text-center font-bold" variants={item}>
-        <Link href="/">About Me</Link>
+        <Link
+          href="/about"
+          as={NextLink}
+          color="foreground"
+          size="lg"
+          underline="hover"
+        >
+          <User className="mr-2 inline-block h-4 w-4" />
+          About Me
+        </Link>
       </motion.li>
       <motion.li className="text-center font-bold" variants={item}>
-        <Link href="/">Projects</Link>
+        <Link
+          href="/projects"
+          as={NextLink}
+          color="foreground"
+          size="lg"
+          underline="hover"
+        >
+          <Code className="mr-2 inline-block h-4 w-4" />
+          Projects
+        </Link>
       </motion.li>
       <motion.li className="text-center font-bold" variants={item}>
-        <Link href="/">Tools and Languages</Link>
+        <Link
+          href="/experience"
+          as={NextLink}
+          color="foreground"
+          size="lg"
+          underline="hover"
+        >
+          <Briefcase className="mr-2 inline-block h-4 w-4" />
+          Work experience & Education
+        </Link>
+      </motion.li>
+      <motion.li className="text-center font-bold" variants={item}>
+        <Link
+          href="/contact"
+          as={NextLink}
+          color="foreground"
+          size="lg"
+          underline="hover"
+        >
+          <AtSign className="mr-2 inline-block h-4 w-4" />
+          Contact
+        </Link>
       </motion.li>
     </motion.ul>
   );

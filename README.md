@@ -6,19 +6,19 @@ Hello there! 👋 I'm Amaury Aparicio, a passionate developer dedicated to creat
 
 Here are some of the projects that I've worked on:
 
-### Project 1
+### Artesandia
 
 - **Description:** Artesandia is an E-commerce site with an administration system featuring automated systems for managing sales and customers.
 - **Technologies Used:** TypeScript, React, Next.js, tRPC, Prisma, PostgreSQL, Sass, and Turborepo.
 - **[Link to Project](https://www.artesandia.mx)**
 
-### Project 2
+### Natours
 
 - **Description:** Natours is a project created to demonstrate the ability to replicate a design using different CSS techniques.
 - **Technologies Used:** Pure HTML and Scss.
 - **[Link to Project](https://amauryaparicio.github.io/Natours/)**
 
-### Project 3
+### Particle Device Setup
 
 - **Description:** Setup Partcle device is an application that allows users to setup their Particle devices.
 - **Technologies Used:** Next.js, Redux, Sass and internal libraries.
