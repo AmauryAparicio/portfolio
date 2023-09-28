@@ -7,7 +7,7 @@ import { MoveLeft } from "lucide-react";
 export default function AboutMe() {
   return (
     <section id="about-me" className="flex h-full items-center justify-center ">
-      <div className="container mx-auto max-w-2xl rounded bg-white bg-opacity-10 p-8 px-4 py-8 shadow-lg drop-shadow-lg backdrop-blur-lg">
+      <div className="container mx-auto max-w-2xl rounded bg-white bg-opacity-5 p-8 px-4 py-8 shadow-xl drop-shadow-lg backdrop-blur-lg dark:bg-opacity-5">
         <h2 className="mb-8 text-4xl font-semibold">About Me</h2>
         <div className="grid">
           <p className="mb-6 text-lg">

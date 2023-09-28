@@ -46,7 +46,7 @@ const sentence2 = {
 export const Title = () => {
   return (
     <Fragment>
-      <div className="flex flex-col items-center justify-between rounded bg-white bg-opacity-10 px-4 py-8 drop-shadow-lg backdrop-blur-lg">
+      <div className="flex flex-col items-center justify-between rounded bg-white bg-opacity-5 px-4 py-8 shadow-xl drop-shadow-2xl backdrop-blur-lg">
         <motion.h1
           className="text-center font-bold"
           variants={sentence}
@@ -76,7 +76,7 @@ export const Title = () => {
         </motion.h1>
       </div>
       <motion.p
-        className="w-4/5 pt-unit-lg text-justify md:text-lg lg:w-3/5"
+        className="w-4/5 pt-unit-lg text-justify drop-shadow-lg md:text-lg lg:w-3/5"
         variants={sentence2}
         initial="hidden"
         animate="visible"

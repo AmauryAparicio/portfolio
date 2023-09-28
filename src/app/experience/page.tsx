@@ -137,7 +137,7 @@ const ExperienceAndEducation = () => {
                 delay: 0.3,
               }}
               key={index}
-              className="mb-12 rounded bg-white bg-opacity-10 p-8 px-4 py-8 shadow-lg drop-shadow-lg backdrop-blur-lg"
+              className="mb-12 rounded bg-white bg-opacity-5 p-8 px-4 py-8 shadow-xl drop-shadow-lg backdrop-blur-lg"
             >
               <h3 className="mb-2 text-2xl font-semibold">{experience.role}</h3>
               <p className="mb-2 text-lg">

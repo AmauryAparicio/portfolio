@@ -29,6 +29,29 @@ const item = {
   },
 };
 
+const links = [
+  {
+    href: "/about",
+    text: "About Me",
+    icon: <User className="mr-2 inline-block h-4 w-4" />,
+  },
+  {
+    href: "/projects",
+    text: "Projects",
+    icon: <Code className="mr-2 inline-block h-4 w-4" />,
+  },
+  {
+    href: "/experience",
+    text: "Work experience & Education",
+    icon: <Briefcase className="mr-2 inline-block h-4 w-4" />,
+  },
+  {
+    href: "/contact",
+    text: "Contact",
+    icon: <AtSign className="mr-2 inline-block h-4 w-4" />,
+  },
+];
+
 export const Links = () => {
   return (
     <motion.ul
@@ -37,54 +60,25 @@ export const Links = () => {
       initial="hidden"
       animate="visible"
     >
-      <motion.li className="text-center font-bold" variants={item}>
-        <Link
-          href="/about"
-          as={NextLink}
-          color="foreground"
-          size="lg"
-          underline="hover"
+      {links.map((link, index) => (
+        <motion.li
+          className="text-center font-bold"
+          variants={item}
+          key={`${link.href}-${index}`}
         >
-          <User className="mr-2 inline-block h-4 w-4" />
-          About Me
-        </Link>
-      </motion.li>
-      <motion.li className="text-center font-bold" variants={item}>
-        <Link
-          href="/projects"
-          as={NextLink}
-          color="foreground"
-          size="lg"
-          underline="hover"
-        >
-          <Code className="mr-2 inline-block h-4 w-4" />
-          Projects
-        </Link>
-      </motion.li>
-      <motion.li className="text-center font-bold" variants={item}>
-        <Link
-          href="/experience"
-          as={NextLink}
-          color="foreground"
-          size="lg"
-          underline="hover"
-        >
-          <Briefcase className="mr-2 inline-block h-4 w-4" />
-          Work experience & Education
-        </Link>
-      </motion.li>
-      <motion.li className="text-center font-bold" variants={item}>
-        <Link
-          href="/contact"
-          as={NextLink}
-          color="foreground"
-          size="lg"
-          underline="hover"
-        >
-          <AtSign className="mr-2 inline-block h-4 w-4" />
-          Contact
-        </Link>
-      </motion.li>
+          <Link
+            href={link.href}
+            as={NextLink}
+            className="transition-colors hover:text-amber-500"
+            size="lg"
+            underline="hover"
+            color="foreground"
+          >
+            {link.icon}
+            {link.text}
+          </Link>
+        </motion.li>
+      ))}
     </motion.ul>
   );
 };

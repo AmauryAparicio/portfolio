@@ -70,7 +70,7 @@ export default function Projects() {
         {projectData.map((project, index) => (
           <motion.div
             key={index}
-            className="mb-12 rounded bg-white bg-opacity-10 p-8 px-4 py-8 shadow-lg drop-shadow-lg backdrop-blur-lg"
+            className="mb-12 rounded bg-white bg-opacity-5 p-8 px-4 py-8 shadow-xl drop-shadow-lg backdrop-blur-lg"
             initial={{
               opacity: 0,
               x: -50,

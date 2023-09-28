@@ -10,7 +10,7 @@ const Contact = () => {
       id="contact"
       className="flex min-h-screen flex-col items-center justify-center"
     >
-      <div className="container mx-auto max-w-2xl bg-white bg-opacity-10 p-8 px-4 py-8 text-center shadow-lg drop-shadow-lg backdrop-blur-lg">
+      <div className="container mx-auto max-w-2xl bg-white bg-opacity-5 p-8 px-4 py-8 text-center shadow-xl drop-shadow-lg backdrop-blur-lg">
         <h2 className="mb-8 text-4xl font-semibold">Contact Me</h2>
         <div className="mb-6">
           <p className="mb-2 text-lg">
