@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+[ -n "$CI" ] && exit 0
+
+echo "===\n>> Pre-push Hook: Checking branch name..."
+
+BRANCH=`git rev-parse --abbrev-ref HEAD`
+
+if [ "$BRANCH" = "main" ] || [ "$BRANCH" = "production" ]; then
+  echo "\n🚫 Cannot push to remote $BRANCH branch, please create your own branch and use PR."
+  exit 1
+fi
+
+echo ">> Finish checking branch name.\n==="

@@ -1,7 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Fragment } from "react";
+import { motion } from "framer-motion";
 
 const text1 = Array.from("Amaury Aparicio");
 const text2 = Array.from("Software Engineer");
@@ -47,7 +47,7 @@ export const Title = () => {
   return (
     <Fragment>
       <motion.h1
-        className="font-bold text-center"
+        className="text-center font-bold"
         variants={sentence}
         initial="hidden"
         animate="visible"
@@ -55,7 +55,7 @@ export const Title = () => {
         {text1.map((letter, index) => (
           <motion.span
             key={`${letter}-${index}-text-1`}
-            className="text-6xl md:text-9xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 bg-300% animate-gradient"
+            className="animate-gradient bg-gradient-to-r from-blue-400 to-cyan-500 bg-300% bg-clip-text text-6xl text-transparent md:text-9xl"
             variants={letters}
           >
             {letter}

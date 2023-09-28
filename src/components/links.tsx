@@ -1,6 +1,7 @@
 "use client";
-import { motion } from "framer-motion";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const list = {
   hidden: { opacity: 1 },
@@ -29,18 +30,18 @@ const item = {
 export const Links = () => {
   return (
     <motion.ul
-      className="flex flex-col items-center justify-between py-24 gap-2"
+      className="flex flex-col items-center justify-between gap-2 py-24"
       variants={list}
       initial="hidden"
       animate="visible"
     >
-      <motion.li className="font-bold text-center" variants={item}>
+      <motion.li className="text-center font-bold" variants={item}>
         <Link href="/">About Me</Link>
       </motion.li>
-      <motion.li className="font-bold text-center" variants={item}>
+      <motion.li className="text-center font-bold" variants={item}>
         <Link href="/">Projects</Link>
       </motion.li>
-      <motion.li className="font-bold text-center" variants={item}>
+      <motion.li className="text-center font-bold" variants={item}>
         <Link href="/">Tools and Languages</Link>
       </motion.li>
     </motion.ul>
