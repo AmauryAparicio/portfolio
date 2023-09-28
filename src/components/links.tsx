@@ -55,7 +55,7 @@ const links = [
 export const Links = () => {
   return (
     <motion.ul
-      className="flex flex-col items-center justify-between gap-2 md:py-14 lg:py-24"
+      className="gap- flex flex-col items-center justify-between pb-4 md:py-14 lg:py-0 lg:pb-10"
       variants={list}
       initial="hidden"
       animate="visible"
