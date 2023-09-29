@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center space-x-8">
           <Link
-            href="https://www.linkedin.com/in/j-amaury-aparicio-cuevas-b639801b0/?locale=en_US"
+            href="https://www.linkedin.com/in/amauryaparicio/?locale=en_US"
             isExternal
             showAnchorIcon
             className="text-yellow-600"
