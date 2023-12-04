@@ -9,14 +9,14 @@ const ExperienceAndEducation = () => {
   const workExperienceData = [
     {
       role: "Senior Front-End Developer / Tech Lead",
-      company: "Particle",
+      company: "Tech Mahindra",
       location: "Remote",
-      duration: "Jun/22 - Jan/23",
+      duration: "May/22 - Nov/23",
       responsibilities: [
-        "Pioneered an IoT app, setting industry benchmarks.",
-        "Mentored developers; fostered innovation and best practices.",
-        "Collaborated globally, ensuring seamless integrations.",
-        "Devised tech strategies aligned with business goals.",
+        "Developed and enhanced a sophisticated graph and table creation tool using JavaScript and React for Dow Jones, significantly improving its functionality for major online publications, including the New York Times.",
+        "Collaborated closely with key clients, demonstrating strong interpersonal and technical communication skills, and understanding their specific needs to deliver tailored solutions.",
+        "Implemented advanced features and services updates for Kroger's analytics tools, employing Node.js, Redux, and React, which resulted in more efficient and effective data collection processes.",
+        "Demonstrated adaptability and problem-solving abilities by working on diverse projects, mastering various technologies and methodologies to meet different project requirements and client expectations.",
       ],
     },
     {
